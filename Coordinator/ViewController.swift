@@ -17,3 +17,5 @@ class ViewController: UIViewController {
 
 }
 
+
+extension ViewController : Storyboarded {}
