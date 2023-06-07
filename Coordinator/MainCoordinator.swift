@@ -19,9 +19,19 @@ class MainCoordinator: Coordinator {
     
     func start() {
         let vc = ViewController.instantiate()
+        vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
-        
     }
     
+    func moveToVC1() {
+        let vc = ViewController1.instantiate()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
+    }
     
+    func moveToVC2() {
+        let vc = ViewController2.instantiate()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
+    }
 }
