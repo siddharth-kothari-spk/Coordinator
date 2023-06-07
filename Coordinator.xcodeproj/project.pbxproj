@@ -19,6 +19,8 @@
 		B17F95C02A30C57700CE7F85 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95BF2A30C57700CE7F85 /* Coordinator.swift */; };
 		B17F95C22A30C64D00CE7F85 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95C12A30C64D00CE7F85 /* Storyboarded.swift */; };
 		B17F95C42A30C90300CE7F85 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95C32A30C90300CE7F85 /* MainCoordinator.swift */; };
+		B17F95C62A30CF4D00CE7F85 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95C52A30CF4D00CE7F85 /* ViewController1.swift */; };
+		B17F95C82A30CF5E00CE7F85 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95C72A30CF5E00CE7F85 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		B17F95BF2A30C57700CE7F85 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B17F95C12A30C64D00CE7F85 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		B17F95C32A30C90300CE7F85 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B17F95C52A30CF4D00CE7F85 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		B17F95C72A30CF5E00CE7F85 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				B17F95BF2A30C57700CE7F85 /* Coordinator.swift */,
 				B17F95C12A30C64D00CE7F85 /* Storyboarded.swift */,
 				B17F95C32A30C90300CE7F85 /* MainCoordinator.swift */,
+				B17F95C52A30CF4D00CE7F85 /* ViewController1.swift */,
+				B17F95C72A30CF5E00CE7F85 /* ViewController2.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -268,9 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B17F95C02A30C57700CE7F85 /* Coordinator.swift in Sources */,
+				B17F95C82A30CF5E00CE7F85 /* ViewController2.swift in Sources */,
 				B17F95C42A30C90300CE7F85 /* MainCoordinator.swift in Sources */,
 				B17F95942A30C4CF00CE7F85 /* ViewController.swift in Sources */,
 				B17F95C22A30C64D00CE7F85 /* Storyboarded.swift in Sources */,
+				B17F95C62A30CF4D00CE7F85 /* ViewController1.swift in Sources */,
 				B17F95902A30C4CF00CE7F85 /* AppDelegate.swift in Sources */,
 				B17F95922A30C4CF00CE7F85 /* SceneDelegate.swift in Sources */,
 			);
