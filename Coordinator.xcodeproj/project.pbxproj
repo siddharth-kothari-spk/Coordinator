@@ -16,6 +16,7 @@
 		B17F95A72A30C4D200CE7F85 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95A62A30C4D200CE7F85 /* CoordinatorTests.swift */; };
 		B17F95B12A30C4D200CE7F85 /* CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95B02A30C4D200CE7F85 /* CoordinatorUITests.swift */; };
 		B17F95B32A30C4D200CE7F85 /* CoordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95B22A30C4D200CE7F85 /* CoordinatorUITestsLaunchTests.swift */; };
+		B17F95C02A30C57700CE7F85 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F95BF2A30C57700CE7F85 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B17F95AC2A30C4D200CE7F85 /* CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17F95B02A30C4D200CE7F85 /* CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUITests.swift; sourceTree = "<group>"; };
 		B17F95B22A30C4D200CE7F85 /* CoordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B17F95BF2A30C57700CE7F85 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B17F95982A30C4D200CE7F85 /* Assets.xcassets */,
 				B17F959A2A30C4D200CE7F85 /* LaunchScreen.storyboard */,
 				B17F959D2A30C4D200CE7F85 /* Info.plist */,
+				B17F95BF2A30C57700CE7F85 /* Coordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17F95C02A30C57700CE7F85 /* Coordinator.swift in Sources */,
 				B17F95942A30C4CF00CE7F85 /* ViewController.swift in Sources */,
 				B17F95902A30C4CF00CE7F85 /* AppDelegate.swift in Sources */,
 				B17F95922A30C4CF00CE7F85 /* SceneDelegate.swift in Sources */,
